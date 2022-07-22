@@ -1,0 +1,387 @@
+:root{
+    --background: #f4f4f4;
+    --black: #050505;
+    --grey: #eeeeee;
+    --dark-grey: #828282;
+    --blue: #0f4abe;
+    --white: #fdfdfd;
+    --super-dark-grey: #3f3f3f;
+}
+
+.container{
+    width: 100%;
+}
+.main-container{
+    min-height: 90vh;
+}
+.container .row .col-sm-3{
+    width: 15%;
+    margin-left: 20%;
+}
+.container .row .col-sm-9{
+    width: 45%;
+    margin-right: 20%;
+}
+
+body{
+    background-color: var(--background);
+    margin-top: 0;
+}
+
+.main-container .col-sm-12{
+    background-color: var(--black);
+}
+
+.logo img{
+    width: 70%;
+    height: auto;
+}
+
+.logo{
+    margin: .9em 0;
+}
+
+.menu--main{
+    float: inline-end;
+}
+
+.menu--main li a{
+    color: var(--white);
+}
+
+.menu--main li a:hover{
+    background-color: var(--blue);
+}
+
+.menu--account li a{
+    color: var(--white);
+}
+
+.menu--account li a:hover{
+    background-color: var(--blue);
+}
+
+/* CARD JOB */
+.teaser{
+    background-color: var(--white);
+    border-radius: .7em;
+    margin: 1em 0;
+    padding: 1em;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, .5));
+}
+.teaser .content{
+    display: flex;
+    flex-wrap: unwrap;
+}
+.teaser h2 span{
+    font-weight: 700;
+    color: var(--blue);
+    font-size: .7em;
+}
+.teaser h2{
+    margin: 0;
+}
+.teaser .field--name-field-category a{
+    color: var(--black);
+    font-weight: 700;
+}
+.teaser .field--name-field-brand{
+    width: 80%;
+}
+.teaser .field--name-field-brand img{
+display: block;
+width: 6em;
+height: auto;
+margin: .5em 1em;
+}
+
+.teaser .field--name-body p{
+    color: var(--super-dark-grey);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+    margin: revert;
+}
+
+#block-careerfinder-views-block-recent-jobs-block-1{
+    background-color: var(--grey);
+    margin-top: 1em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+#block-careerfinder-views-block-recent-jobs-block-1 h2{
+    color: var(--blue);
+    font-weight: 700;
+    text-transform: uppercase;   
+    font-size: 1.4em; 
+}
+
+#block-careerfinder-views-block-recent-jobs-block-1 .views-field-title span a{
+    color: var(--dark-gray);
+    font-weight: 400; 
+    font-size: 1em; 
+}
+
+#block-careerfinder-views-block-recent-jobs-block-1 .views-field-title{
+    margin: 1em 0;
+}
+
+#block-careerfinder-views-block-categories-block-1{
+    background-color: var(--grey);
+    margin-top: 1em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+#block-careerfinder-views-block-categories-block-1 h2{
+    color: var(--blue);
+    font-weight: 700;
+    text-transform: uppercase;   
+    font-size: 1.4em; 
+}
+
+#block-careerfinder-views-block-categories-block-1 .views-field-name span a{
+    color: var(--dark-gray);
+    font-weight: 400; 
+    font-size: 1em; 
+}
+
+#block-careerfinder-views-block-categories-block-1 .views-field-name{
+    margin: 1em 0;
+}
+
+#block-custom-footer .field--name-body p{
+    float: right;
+    color: var(--dark-grey);
+}
+
+/*CATEGORY PAGE*/
+#block-careerfinder-views-block-recent-jobs-for-category-block-1{
+    background-color: var(--grey);
+    margin-top: 1em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+#block-careerfinder-views-block-recent-jobs-for-category-block-1 h2{
+    color: var(--blue);
+    font-weight: 700;
+    text-transform: uppercase;   
+    font-size: 1.4em; 
+}
+
+#block-careerfinder-views-block-recent-jobs-for-category-block-1 .views-field-title span a{
+    color: var(--dark-gray);
+    font-weight: 400; 
+    font-size: 1em; 
+}
+
+#block-careerfinder-views-block-recent-jobs-for-category-block-1 .views-field-title{
+    margin: 1em 0;
+}
+/*DETAIL JOB PAGE*/
+#block-careerfinder-views-block-related-jobs-block-1{
+    background-color: var(--grey);
+    margin-top: 1em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+#block-careerfinder-views-block-related-jobs-block-1 h2{
+    color: var(--blue);
+    font-weight: 700;
+    text-transform: uppercase;   
+    font-size: 1.4em; 
+}
+
+#block-careerfinder-views-block-related-jobs-block-1 .views-field-title span a{
+    color: var(--dark-gray);
+    font-weight: 400; 
+    font-size: 1em; 
+}
+
+#block-careerfinder-views-block-related-jobs-block-1 .views-field-title{
+    margin: 1em 0;
+}
+
+.full{
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    filter: none;
+}
+
+.full .content{
+    flex-wrap: wrap;
+}
+
+.region-content .page-header span{
+    font-weight: 700;
+    font-size: .8em;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.region-content .page-header{
+    margin: 1em 0 0;
+    font-weight: 700;
+    font-size: 2em;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.full .field--name-field-brand{
+    width: 100%;
+    margin: 1em 0;
+}
+.full .field--name-field-brand img{
+display: block;
+width: 8em;
+height: auto;
+margin: 0 auto;
+}
+.full .field--name-field-keywords{
+    display: flex;
+}
+
+.full .field--name-field-keywords .field--item{
+    padding-right: 1em;
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.full .field--name-field-category{
+    margin: 0 0 1em;
+}
+
+.full .field--name-field-job-description p{
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.full .field--name-field-requirements p{
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.full .field--name-field-job-description{
+    margin: 1em 0;
+}
+
+.full .field--name-field-requirements{
+    margin: 1em 0;
+}
+
+.full .field--name-body p{
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.full section h2{
+    font-weight: 700;
+    font-size: 1.5em;
+    color: var(--black);
+    text-transform: uppercase;
+}
+/*ABOUT US*/
+.view-about-us{
+    margin: 1em 0;
+}
+.view-about-us .field--name-body p{
+    font-size: 1.2em;
+    line-height: 2em;
+}
+.view-about-us .field--name-body li{
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.links{
+    display: flex;
+    margin: 0;
+    float: right;
+}
+
+.links li{
+    list-style-type: none;
+    padding: 1em 0;
+    margin: 0;
+}
+
+.links li a{
+    text-decoration: none;
+    margin: 0;
+    padding: 1em;
+    color: var(--white);
+}
+
+.links li a:hover{
+    background-color: var(--blue);
+}
+
+/*************************MEDIA QUERIES TABLET*************************/
+@media only screen and (min-width:576.1px) and (max-width: 992px) {
+    .logo{
+        width: 100%;
+        float: none !important;
+    }
+
+    .logo img{
+        margin: 1.5em 0;
+    }
+    
+    .menu--main{
+        float: none;
+    }
+
+    .container .row .col-sm-3{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container .row .col-sm-9{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .teaser .content{
+        flex-wrap: wrap;
+    }
+    .navbar-nav{
+        margin: 0;
+    }
+}
+/*************************MEDIA QUERIES MOBILE*************************/
+@media only screen and (max-width: 576px) {
+    .logo{
+        width: 100%;
+        float: none !important;
+    }
+
+    .logo img{
+        margin: 1.5em 0;
+    }
+    
+    .menu--main{
+        float: none;
+    }
+
+    .container .row .col-sm-3{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container .row .col-sm-9{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .teaser .content{
+        flex-wrap: wrap;
+    }
+    .navbar-nav{
+        margin: 0;
+    }
+}

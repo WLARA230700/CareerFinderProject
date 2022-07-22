@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Installation file for the Load Images module.
+ */
+
+use Drupal\user\RoleInterface;
+
+/**
+ * Implements hook_install().
+ */
+
+function load_images_install()
+{
+   user_role_change_permissions(RoleInterface::ANONYMOUS_ID, array( 
+     'images permissions' => TRUE,
+   ));
+}
+
+?>

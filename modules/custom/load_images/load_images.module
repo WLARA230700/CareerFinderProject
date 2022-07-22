@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Module help file for the Load Images module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+
+function load_images_help($route_name, RouteMatchInterface $route_match)
+{
+   switch ($route_name) {
+      case 'help.page.load_images':
+        return t('
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Load Images Module Information</h2>
+                        <p>
+                            This module provides the profile photos of the developers.
+                        </p>
+                        <p>
+                            This module was made with custom API using <a href="https://www.mockachino.com" target="_blank">Mockachino Website</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        ');
+   }
+}

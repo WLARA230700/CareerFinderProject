@@ -1,0 +1,13 @@
+name: CareerFinder
+type: theme
+description: 'A theme for job directory.'
+core_version_requirement: ^8 || ^9
+libraries:
+  - careerfinder/global-styling
+  - careerfinder/global-scripting
+base theme: bootstrap
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'

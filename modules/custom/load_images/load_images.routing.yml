@@ -1,0 +1,7 @@
+load_images.content:
+  path: '/load-images'
+  defaults:
+    _controller: '\Drupal\load_images\Controller\LoadImagesController::getLoadImages'
+    _title: 'Load Images'
+  requirements:
+    _permission: 'images permissions'

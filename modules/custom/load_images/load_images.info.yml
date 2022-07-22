@@ -1,0 +1,5 @@
+name: Load Images
+type: module
+description: This module show developers' images.
+package: Load Image
+core_version_requirement: ^8 || ^9
