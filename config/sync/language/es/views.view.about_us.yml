@@ -1,0 +1,9 @@
+label: 'Sobre Nosotros'
+display:
+  default:
+    display_options:
+      title: 'Sobre Nosotros'
+  page_1:
+    display_options:
+      menu:
+        title: 'Sobre Nosotros'

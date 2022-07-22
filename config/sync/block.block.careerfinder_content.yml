@@ -1,0 +1,22 @@
+uuid: fab764d5-bb43-4969-b219-aa5ef58afc04
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - careerfinder
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: careerfinder_content
+theme: careerfinder
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

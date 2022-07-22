@@ -1,0 +1,20 @@
+uuid: 67adeb34-7335-47e2-9886-dc1832c2aa6e
+langcode: en
+status: false
+dependencies:
+  theme:
+    - careerfinder
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: careerfinder_page_title
+theme: careerfinder
+region: header
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

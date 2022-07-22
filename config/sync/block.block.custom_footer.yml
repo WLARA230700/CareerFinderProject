@@ -1,0 +1,25 @@
+uuid: 84f3018b-f971-4b2c-90d0-34cc9134dbe2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_type:0c96d044-7f3f-47f0-b34b-f13818cced62'
+  module:
+    - block_content
+  theme:
+    - careerfinder
+id: custom_footer
+theme: careerfinder
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:0c96d044-7f3f-47f0-b34b-f13818cced62'
+settings:
+  id: 'block_content:0c96d044-7f3f-47f0-b34b-f13818cced62'
+  label: Custom_footer
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

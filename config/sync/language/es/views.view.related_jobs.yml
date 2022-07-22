@@ -1,0 +1,5 @@
+label: 'Trabajos Relacionados'
+display:
+  default:
+    display_options:
+      title: 'Trabajos Relacionados'

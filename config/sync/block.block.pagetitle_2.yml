@@ -1,0 +1,24 @@
+uuid: 0c6482cd-5830-4100-ad10-b3a2bf6cfef2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - careerfinder
+id: pagetitle_2
+theme: careerfinder
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /about-us

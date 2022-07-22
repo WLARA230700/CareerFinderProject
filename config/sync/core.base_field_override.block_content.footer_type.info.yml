@@ -1,0 +1,18 @@
+uuid: 17380c5b-e6e5-41ca-97dc-df81b07dc4f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_type
+id: block_content.footer_type.info
+field_name: info
+entity_type: block_content
+bundle: footer_type
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: ec9f9048-f6ad-45ef-a4c7-314754fa64f2
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - careerfinder
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: careerfinder_help
+theme: careerfinder
+region: content
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

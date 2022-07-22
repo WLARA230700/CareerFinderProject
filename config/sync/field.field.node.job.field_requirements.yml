@@ -1,0 +1,23 @@
+uuid: 9f8e6f47-811c-45e8-8529-8394002fa3d4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_requirements
+    - node.type.job
+  module:
+    - text
+id: node.job.field_requirements
+field_name: field_requirements
+entity_type: node
+bundle: job
+label: Requerimientos
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,27 @@
+uuid: e57b28f6-ebad-467d-8d9e-0c6c6021b684
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+  theme:
+    - careerfinder
+id: pagetitle_3
+theme: careerfinder
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  'entity_bundle:taxonomy_term':
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: '@taxonomy_term.taxonomy_term_route_context:taxonomy_term'
+    bundles:
+      jobs_category: jobs_category

@@ -1,0 +1,5 @@
+label: 'Trabajos Recientes por Categoría'
+display:
+  default:
+    display_options:
+      title: 'Trabajos Recientes por Categoría'

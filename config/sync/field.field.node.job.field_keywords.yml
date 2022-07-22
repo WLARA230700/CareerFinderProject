@@ -1,0 +1,19 @@
+uuid: 1bffbf50-b0dd-4053-8691-a3e1056ba446
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_keywords
+    - node.type.job
+id: node.job.field_keywords
+field_name: field_keywords
+entity_type: node
+bundle: job
+label: Keywords
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: f2c53b8e-c0ed-45f9-b04b-875fd7b67a16
+langcode: en
+status: false
+dependencies:
+  theme:
+    - careerfinder
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: careerfinder_local_tasks
+theme: careerfinder
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

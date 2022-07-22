@@ -1,0 +1,5 @@
+label: 'Trabajos recientes'
+display:
+  default:
+    display_options:
+      title: 'Trabajos recientes'
